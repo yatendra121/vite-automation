@@ -1,0 +1,17 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "cypress open",
+    "test:unit": "jest --verbose"
+  },
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "jest": "^28.1.1",
+    "vite": "^2.9.9"
+  }
+}
